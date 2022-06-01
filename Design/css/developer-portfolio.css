@@ -1,0 +1,102 @@
+#top{
+				font-family: 'Inter', sans-serif;
+				background:black;
+				color:#adadad;
+				font-weight:100;
+}
+#background-ii{
+				background:#2e3038;
+				color:#adadad;
+}
+h1,h2,h3,h4,h5,h6,#nav-button,#button-ii, i{
+				font-family: 'Prata', serif;
+				color:white;
+}
+#navbar-brand{
+				font-size:0.6rem;
+}
+#nav-button button{
+				background:#fbe850;
+				padding:14px 22px;
+}
+#button-ii button{
+				background:#fbe850;
+				padding:14px 22px;
+}
+#dhee ul{
+				margin-top:10px;
+}
+#dhee ul li{
+				margin-top:12px;
+}
+#nav-button a{
+				color:black;
+				text-decoration:none;
+}
+#button-ii a{
+				color:black;
+				text-decoration:none;
+}
+#top h1{
+				font-size:27px;
+}
+#top p{
+				font-size:1.1rem;
+}
+#logo-i,#logo-ii{
+				max-width:70%;
+}
+#logo-iii{
+				max-width:40%;
+}
+#logo-iv,#logo-v,#logo-vi{
+				max-width:50%;
+}
+#logos{
+				margin-left:15%;
+				margin-top:80px;
+}
+#spense-image{
+				width:100%;
+}
+#yelpcamp-image{
+				width:100%;
+}
+@media(min-width:768px){
+			#top h1{
+				font-size:50px;	
+				}
+				#logo-i{
+				max-width:70%;
+				}
+				#logo-ii{
+								max-width:50%;
+								margin-left:10px;
+				}
+				#logo-iii{
+				max-width:60%;
+				}
+				#logo-iv,#logo-v,#logo-vi{
+				max-width:60%;
+				}
+@media(min-width:990px){
+				nav ul{
+								margin-left:24%;
+								margin-bottom:60px;
+				}		
+				#nav-button{
+								position:absolute;
+								right:0;
+								top:7px;
+								margin-left:0 ;
+				}
+				#top h1{
+								font-size:40px;	
+				}
+				#top p{
+								font-size:0.8rem;
+				}
+				#logos{
+								margin-left:0;
+				}
+}
